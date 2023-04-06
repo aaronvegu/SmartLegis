@@ -1,0 +1,20 @@
+{
+  "name": "smartlegis",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "repository": "https://github.com/aaronvegu/SmartLegis.git",
+  "author": "Aaron Vegu <aaron@reckoner-rde.io>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
